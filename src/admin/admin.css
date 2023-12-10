@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.root {
+	-fx-font-family: "Lilita One";
+	-fx-background-color: #FAF0C7;
+}
+
+.top {
+	-fx-background-color: #3C2214;
+	
+}
+
+.panel {
+	-fx-background-color: "#765538";	
+}
+
+.anchorPane {
+	-fx-background-color: #3C2214;
+}
+
+.rightPanel {
+	-fx-background-color: #FAF0C7;
+}
+
+#label{
+	-fx-font-size: 30px;	
+}
+
+#labeltext{
+	-fx-font-size: 18;
+}
+
+#label1 {
+	-fx-font-size: 20px;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: "#FEE98C";
+    -fx-text-fill: black;
+}
+
+.button:hover {
+    -fx-background-color: "#C69A6B";
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+       -fx-rotate: 1;
+}
+
+.button:focused {
+	-fx-background-color: "#C69A6B";
+	 -fx-text-fill: white;
+}
+
+.white {
+	-fx-background-color: #FAF0C7;
+}
+
+.textBox{
+	-fx-background-color:  #FAF0C7;
+	-fx-font-size: 13px;
+	
+}
+
+
+#adminText{
+	-fx-font-size: 25;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-font-family:"Lilita One";
+}
+
+#logoutBtn {
+	-fx-background-color: "#5697f2";
+	-fx-font-family:"Lilita One";
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+
+#anchorImport {
+	-fx-background-color: white;
+}
+
+
+
+#anchorTable {
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,5), 5,0,0,0);
+}
+
+#tableView {
+	-fx-background-color:transparent;
+	
+}
+
+#tableView .column-header {
+	-fx-background-color: "#765538";
+	
+}
+
+#tableView .column-header .label {
+	-fx-text-fill:white;	
+}
+
+#tableView .table-column{
+	-fx-alignment: CENTER;
+}
+	
+#tableView .column-header .filter {
+	-fx-background-color:transparent;
+}
+
+
+.tab-header-area .headers-region {
+	-fx-padding: 0;
+	-fx-background-color: transparent;
+    -fx-pref-height: 0;
+}
+
+.tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-pane {
+    -fx-padding: 0;
+}
+	

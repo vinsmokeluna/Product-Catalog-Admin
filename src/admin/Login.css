@@ -1,0 +1,53 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@300&display=swap');
+
+* {
+	-fx-font-family: "Lilita One";
+}
+
+#loginPanel {
+	-fx-background-color: #3C2214;
+}
+
+.button {
+	-fx-background-color: #C69A6B;
+}
+
+.button:hover {
+	-fx-background-color: #0EA3C4;
+	-fx-cursor: hand;
+}
+
+#forgotBtn {
+	-fx-background-color: #3C2214;
+	-fx-text-fill: #FFFFFF;
+}
+
+#forgotBtn:hover {
+	-fx-text-fill: #0EA3C4;
+	-fx-cursor: hand;
+}
+
+.AOs {
+	-fx-background-color: #C69A6B;
+	-fx-text-fill: #FFFFFF;
+}
+
+#addItemPanel {
+	-fx-background-color: #3C2214;
+}
+
+.Labels {
+	-fx-font-family: "Lilita One", "Arial";
+	-fx-text-fill: #FFFFFF;
+}
+
+#addonsList {
+	-fx-background-color: #FAF0C7;
+}
+
+.editOptions {
+	-fx-background-color: #FAF0C7;
+}
+
+
